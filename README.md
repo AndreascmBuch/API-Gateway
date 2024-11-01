@@ -14,7 +14,6 @@ Beskrivelse: Omdirigerer forespørgsler til faktureringsservicen på http://bill
 Sådan fungerer det
 Forespørgsel: Når der sendes en HTTP-forespørgsel til API Gateway'en, modtager Flask-applikationen forespørgslen.
 Routing: API Gateway'en identificerer det korrekte mikroservice baseret på URL-path.
-Videreførsel: Flask anvender requests til at videresende forespørgslen til mikroservicen og returnerer svaret tilbage til klienten.
 Afhængigheder
 Python: Version 3.10
 Flask: Web-framework for API Gateway
